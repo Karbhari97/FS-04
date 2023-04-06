@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>HomeWork Assignment 1</title>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="root">
+       
+    </div>
+
+
+    <script>
+      let divref=  React.createElement('div',{style:{marginLeft:"10px",width:"450px"}},[
+        React.createElement('H1',null,"Topics Covered"),
+        React.createElement('p',null,"The Following is a list of all the topics we cover in the MDN learning area."),
+        React.createElement('a',{style:{color:"Blue",textDecoration:"underline",}},"Getting started with the web"),
+        React.createElement('p',{style:{marginLeft:"10px"}},"Provides a practicle introduction to devlope for complete begginers"),
+        React.createElement('a',{style:{color:"Blue",textDecoration:"underline"}},"HTML-Structuring the web"),
+        React.createElement('p',{style:{marginLeft:"10px"}},"HTML is the language that we use to structure the diffrent parts of our content and define what their meaning or purpose is  "),
+        React.createElement('a',{style:{color:"Blue",textDecoration:"underline"}},"CSS-Styling the web"),
+        React.createElement('p',{style:{marginLeft:"10px"}},"Css is the language that we use to control our web content style and layout ,as well as adding behaviour like animations."),
+
+      ]);
+
+
+
+
+
+
+
+
+
+      ReactDOM.render(divref,document.getElementById('root'));
+    </script>
+</body>
+
+</html>
