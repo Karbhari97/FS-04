@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+
+    <script>
+        let divref1 = React.createElement('div', {style:{margin:"50px 30px 40px 30px"}},
+            [
+                React.createElement('H2', {style:{margin:"50px 30px 40px 30px",fontSize:"50px"}}, "Learn Web Devlopment"),
+                React.createElement('p', {style:{margin:"50px 30px 40px 30px"}}, "MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005[1] as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides"),
+                React.createElement('p', {style:{margin:"50px 30px 40px 30px"}}, "MDN Web Docs content is maintained by Mozilla, Google employees, and volunteers (community of developers and technical writers). It also contains content contributed by Microsoft, Google, and Samsung who, in 2017"),
+                React.createElement('p', {style:{margin:"50px 30px 40px 30px"}}, "In 2019, Mozilla started Beta testing a new reader site for MDN Web Docs written in React (instead of jQuery; some jQuery functionality was replaced with Cheerio library).[11] The new site was launched on December 14, 2020.[12] Since December 14, 2020, all editable content is stored in a Git repository hosted on GitHub, where contributors open pull requests and discuss changes.")
+            ]
+        )
+
+        ReactDOM.render(divref1, document.getElementById('root'));
+    </script>
+</body>
+
+</html>
